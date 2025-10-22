@@ -1,0 +1,29 @@
+package test;
+
+public class Sample2 {
+
+	public static void main(String[] args) {
+
+		
+		Person p = new Person();
+		
+		p.name = "김상준";
+		p.age = 27;
+		
+		System.out.println(p.name);
+		System.out.println(p.age);
+		
+		
+		
+	}
+
+}
+
+
+        class Person{
+        	
+        	String name;
+        	int age;
+        }
+
+

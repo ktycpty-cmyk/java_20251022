@@ -1,0 +1,74 @@
+package test;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello, Java");
+		System.out.println("Hello, Java");
+		
+		char var1 = 'A';
+		char c1 = 65;
+		char var2 = '가';
+		//char c2 = 44032;
+		char c2 = 0xAC80;
+		
+		System.out.println(var1);
+		System.out.println(c1);
+	
+		System.out.println(var2);
+		System.out.println(c2);
+		
+		float f1 = 10.5f;
+		
+		double d1 = 10.5;
+		
+		System.out.println(f1);
+		System.out.println(d1);
+		
+		float f2 = 2147483648l;
+		float f3 = 2147483658l;
+		float f4 = 2147483668l;
+		
+		System.out.println(f2);
+		System.out.println(f3);
+		System.out.println(f4);	
+		
+		//2.1374836E9  2.1474836x10 ->2,147,483,600
+		
+	    String str1 = "이몽룡";
+	    String str2 = "홍길동";
+	    
+	    System.out.println(str1);
+	    System.out.println(str2);
+	    
+	    //자동 형변환
+	    
+	    int intA =10;
+	    byte byteB = 20;
+	    
+	    intA = byteB; 
+	    
+	    //intA = byteBB;  // a = (int)B;
+	    
+	    System.out.println(intA);
+	    System.out.println(byteB);
+	    
+	    
+	    
+	    //강제 형변환
+	    System.out.println("-------------강제 형변환--------------");
+	    byteB = (byte)intA;
+	    
+	    
+	    System.out.println(intA);
+	    System.out.println(byteB);
+	    
+		
+	    
+	    
+	    
+		
+	}
+
+}
