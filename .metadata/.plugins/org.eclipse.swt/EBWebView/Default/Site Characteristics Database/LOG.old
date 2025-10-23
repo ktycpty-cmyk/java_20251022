@@ -1,2 +1,3 @@
-2025/10/22-09:53:13.052 2610 Creating DB D:\works\JAVA\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database since it was missing.
-2025/10/22-09:53:13.063 2610 Reusing MANIFEST D:\works\JAVA\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/10/22-09:53:21.477 12c Reusing MANIFEST D:\works\JAVA\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/10/22-09:53:21.482 12c Recovering log #3
+2025/10/22-09:53:21.482 12c Reusing old log D:\works\JAVA\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000003.log 
