@@ -57,15 +57,15 @@ public class 중간연산자 {
 		System.out.println(iNum);
 		
 		System.out.println("후위 연산자 1증가 -6");
-		iNum2 = 1;
-		int iB = iNum2++
+		int iNum2 = 1;
+		int iB = iNum2++;
 				
 		/*
 		 * int iB  = iNum2;
 		 * iNum2 = 2
 		 */
 		
-		System.out.println(ib);
+		System.out.println(iB);
 		System.out.println(iNum2);
 		
 	}

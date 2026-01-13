@@ -14,7 +14,7 @@ public class Sample2 {
 		System.out.println(p.age);
 		
 		
-	    Student s = new Student();
+	   Student s = new Student();
          
 		s.학번 = "1234";
 		s.학과 = "소프트웨어학과";
@@ -41,8 +41,17 @@ public class Sample2 {
         		
         		
         		
-        class Student{
-        	String 학번;
-        	String 학과;
+        class Student {
+        	String name;
+        	String addr;
+        	
+        	void funcA() {
+            }
+        	void funcB() {
+        		
+        	}
+        	void funcC() {
+        		
+        	}
         }
         }
