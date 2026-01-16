@@ -22,7 +22,7 @@ public class L6_Rambda4 {
 		DiscernClass flag =
 				num -> num % 2 == 0 ? true : false;
 		
-		boolean f = flag.discern(10);
+		boolean f = flag.discern(9);
 		if(f = true) 
 			System.out.printf("양수"); 
 		else
